@@ -1426,7 +1426,7 @@
  *    - Normally-closed (NC) also connect to GND.
  *    - Normally-open (NO) also connect to 5V.
  */
-//#define Z_MIN_PROBE_PIN -1
+#define Z_MIN_PROBE_PIN PC14
 
 /**
  * Probe Type
@@ -1469,6 +1469,9 @@
  * The BLTouch probe uses a Hall effect sensor and emulates a servo.
  */
 #define BLTOUCH
+
+#define SERVO0_PIN PB0
+
 
 /**
  * MagLev V4 probe by MDD
