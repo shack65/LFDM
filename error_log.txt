@@ -1,0 +1,584 @@
+PS C:\Users\smhac\Documents\Lfdm_bttsk3\Marlin-bugfix-2.1.x> platformio run --silent -e STM32H723VG_btt
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\Servo.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      | 
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\Servo.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HardwareSerial.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HardwareSerial.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL_SPI.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL_SPI.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp:25:
+Marlin\src\HAL\STM32\dogm\../../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp:25:
+Marlin\src\HAL\STM32\dogm\../../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-4-adv.h:33,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-4-adv.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration_adv.h:24: warning: "CONFIG_EXAMPLES_DIR" redefined
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_bttsk3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:24: note: this is the location of the previous definition
+   24 | #define CONFIG_EXAMPLES_DIR "Lfdm_skr3"
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL_SPI.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL_SPI.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\dogm\../../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp:25:
+Marlin\src\HAL\STM32\dogm\../../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp:25:
+Marlin\src\HAL\STM32\dogm\../../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\Servo.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\Servo.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HardwareSerial.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HardwareSerial.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      | 
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      | 
+In file included from Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_EZ.h:30,
+                 from Marlin\src\HAL\STM32\../../inc/../pins/pins.h:891,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../pins/stm32h7/pins_BTT_SKR_V3_0_common.h:59: warning: "SERVO0_PIN" redefined
+   59 | #define SERVO0_PIN                          PE5
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\HAL.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:26:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-1-axes.h:44,
+                 from Marlin\src\HAL\STM32\../../inc/Conditionals-1-axes.h:32,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre.h:27,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-5-post.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfigPre-6-type.h:24,
+                 from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:28,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/../../Configuration.h:1475: note: this is the location of the previous definition
+ 1475 | #define SERVO0_PIN PB0
+      |
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\HardwareSerial.cpp:32:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_sram.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_bl24cxx.cpp:32:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_if_iic.cpp:32:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_flash.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\Servo.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_wired.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\dogm\../../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp:25:
+Marlin\src\HAL\STM32\dogm\../../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\dogm\../../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\dogm\../../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\eeprom_sdcard.cpp:31:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\HAL.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\MarlinSerial.cpp:27:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+In file included from Marlin\src\HAL\STM32\../../inc/MarlinConfig.h:49,
+                 from Marlin\src\HAL\STM32\HAL_SPI.cpp:26:
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3714:35: error: static assertion failed: DEFAULT_AXIS_STEPS_PER_UNIT has too many elements. (Should be 3+1)
+ 3714 | static_assert(COUNT(sanity_arr_1) <= DISTINCT_AXES, "DEFAULT_AXIS_STEPS_PER_UNIT has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3719:35: error: static assertion failed: DEFAULT_MAX_FEEDRATE has too many elements. (Should be 3+1)
+ 3719 | static_assert(COUNT(sanity_arr_2) <= DISTINCT_AXES, "DEFAULT_MAX_FEEDRATE has too many elements." _EXTRA_NOTE);
+Marlin\src\HAL\STM32\../../inc/SanityCheck.h:3724:35: error: static assertion failed: DEFAULT_MAX_ACCELERATION has too many elements. (Should be 3+1)
+ 3724 | static_assert(COUNT(sanity_arr_3) <= DISTINCT_AXES, "DEFAULT_MAX_ACCELERATION has too many elements." _EXTRA_NOTE);
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_bl24cxx.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_sram.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\dogm\u8g_com_stm32duino_swspi.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_flash.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_wired.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\Servo.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\HAL.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\MarlinSerial.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\HardwareSerial.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_if_iic.cpp.o] Error 1
+*** [.pio\build\STM32H723VG_btt\src\src\HAL\STM32\eeprom_sdcard.cpp.o] Error 1
+Environment      Status    Duration
+---------------  --------  ------------
+STM32H723VG_btt  FAILED    00:00:22.349
+==================================================================================== 1 failed, 0 succeeded in 00:00:22.349 ====================================================================================
+PS C:\Users\smhac\Documents\Lfdm_bttsk3\Marlin-bugfix-2.1.x> echo "done" >"C:\Users\smhac\AppData\Local\Temp\ipc"
+PS C:\Users\smhac\Documents\Lfdm_bttsk3\Marlin-bugfix-2.1.x> 23.9
+
+
